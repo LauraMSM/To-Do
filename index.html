@@ -13,7 +13,26 @@
     <title>To Do List</title>
 </head>
 <body>
-    <h1>Tareas</h1>
+    <header class="header">
+        <h1 class="header__h1">Tasks list</h1>
+    </header>
 
+    <form class="form">
+        <input type="text" class="form__input">
+        <button class="form__button">+</button>
+    </form>
+
+    <div class="main-container">
+        <div class="main-container__card">
+            <h3>Título</h3>
+            <div class="card__info">
+                <p>Descripción</p>
+                <div class="card__info__buttons">
+                    <button>Editar</button>
+                    <button>Borrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

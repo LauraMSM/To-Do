@@ -18,14 +18,14 @@
 
 /* DARK MODE */
 /* --------- */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     :root {
         --main-color: #32afa9;
         --nd-color: #A4D4AE;
         --rd-color: #E7F0C3;
         --th-color: #F0CF85;
     }
-}
+} */
 
 
 /* ANIMATION NONE */
@@ -87,12 +87,12 @@ h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i {
 
 /* SELECTED TEXT */
 ::-moz-selection {
-    background-color: var(--negro);
+    background-color: var(--th-color);
     color: var(--blanco);
 }
 
 ::selection {
-  background-color: var(--negro);
+  background-color: var(--th-color);
   color: var(--blanco);
 }
 
@@ -106,6 +106,7 @@ form, input, textarea, select, button, label {
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     display: block;
+    outline: none;
 }
 
 /* TABLE RESET */
@@ -123,7 +124,7 @@ svg {
 
 /* WEB TIPOGRAPHY */
 body {
-    color: var(--negro);
+    color: var(--th-color);
     font-size: 100%;
     font-family: var(--tipo-principal);
     line-height: 1.4em; /* Por standar es lo normal */
