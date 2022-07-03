@@ -57,7 +57,7 @@ body {
 .main-container__card {
     width: 40%;
     min-width: 40em;
-    margin: 0 auto;
+    margin: 1em auto;
     padding: 1em;
     border: 1px solid;
     border-radius: 5px;
@@ -65,4 +65,18 @@ body {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-container__card__h3 {
+    font-family: var(--subtitle-font);
+    font-size: 1.7em;
+}
+.card__info__buttons {
+    display: flex;
+}
+.info__button__img {
+    width: 1.8em;
+    filter: invert(65%) sepia(18%) saturate(1200%) hue-rotate(128deg) brightness(86%) contrast(103%);
 }

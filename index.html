@@ -17,22 +17,28 @@
         <h1 class="header__h1">Tasks list</h1>
     </header>
 
-    <form class="form">
+    <form class="form" action="#">
         <input type="text" class="form__input">
-        <button class="form__button">+</button>
+        <button class="form__button" type="button">+</button>
     </form>
 
     <div class="main-container">
         <div class="main-container__card">
-            <h3>Título</h3>
-            <div class="card__info">
-                <p>Descripción</p>
-                <div class="card__info__buttons">
-                    <button>Editar</button>
-                    <button>Borrar</button>
-                </div>
+            <h3 class="main-container__card__h3">Título</h3>
+            <div class="card__info__buttons">
+                <button class="info__button info__button--checked">
+                    <img src="/resources/img/check.svg" alt="icono correspondiente al botón de confirmación de tarea" class="info__button__img">
+                </button>
+                <button>
+                    <img src="/resources/img/close.svg" alt="icono correspondiente al botón de confirmación de tarea" class="info__button__img">
+                </button>
+                <button>
+                    <img src="/resources/img/edit.svg" alt="icono correspondiente al de confirmación de tarea" class="info__button__img">
+                </button>
             </div>
         </div>
     </div>
+
+    <script src="/js/app.js"></script>
 </body>
 </html>
